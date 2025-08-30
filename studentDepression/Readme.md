@@ -7,13 +7,13 @@ Despite the availability of academic and lifestyle data, institutions often lack
 
 The objective of this project was to:
 
-    * Consolidate and clean self-reported student survey data.
+* Consolidate and clean self-reported student survey data.
 
-    * Perform Exploratory Data Analysis (EDA) and Statistical Testing.
+* Perform Exploratory Data Analysis (EDA) and Statistical Testing.
 
-    * Use SQL transformations for feature engineering.
+* Use SQL transformations for feature engineering.
 
-    *  Develop an interactive Power BI dashboard highlighting academic,     lifestyle, and financial stress-related factors that contribute to depression.
+*  Develop an interactive Power BI dashboard highlighting academic,     lifestyle, and financial stress-related factors that contribute to depression.
 
 > This project performs an end-to-end analysis of a student survey dataset to identify the key factors correlated with depression.
 
@@ -22,15 +22,15 @@ The objective of this project was to:
 
 This project demonstrates an end-to-end analytics workflow:
 
-    - Raw student data ingested and cleaned with Python Libraries (Pandas) and later duplicated to SQL (SQLite + MySQL-like syntax).
+ - Raw student data ingested and cleaned with Python Libraries (Pandas) and later duplicated to SQL (SQLite + MySQL-like syntax).
 
-    - Statistical analysis (Chi-Square) performed using Python (Pandas, SciPy, Matplotlib).
+ - Statistical analysis (Chi-Square) performed using Python (Pandas, SciPy, Matplotlib).
 
-    - Data model built in Power BI with encoded categorical variables and DAX measures.
+ - Data model built in Power BI with encoded categorical variables and DAX measures.
 
-    - Final dashboard designed with multi-page storytelling — Academic, Lifestyle, and Summary insights.
+ - Final dashboard designed with multi-page storytelling — Academic, Lifestyle, and Summary insights.
 
-    - Created a final report in powerpoint in order to represent the key findings of the project.
+ - Created a final report in powerpoint in order to represent the key findings of the project.
 
 
 ## Dataset Information
@@ -44,6 +44,8 @@ The dataset includes **~28,000** students with demographic, academic, and lifest
     - Lifestyle Factors: Sleep Duration, Dietary Habits, Financial Stress.
 
     - Mental Health Indicators: Depression (binary 0/1), Suicidal Thoughts, Family History of Mental Illness.
+
+[View Dataset](../studentDepression/Data/student_depression_raw.csv)
 
 
 ---
@@ -81,10 +83,10 @@ Student-Depression/
 
 ```
 
-    ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-    ![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=sqlite&logoColor=white)
-    ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-    ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=sqlite&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 # **🔄 Project Workflow**
 
@@ -94,22 +96,22 @@ Student-Depression/
 
 **📊 Exploratory Data Analysis (EDA)**
 
-    -  In-depth EDA was conducted in a Jupyter Notebook to uncover initial patterns, test hypotheses, and understand the complex relationships between variables.
-    - Python (EDA & Statistical Analysis)
-    - Conducted univariate & bivariate analysis.
-    - Chi-square tests for categorical associations.
-    - Visualization with Matplotlib & Seaborn.
+ -  In-depth EDA was conducted in a Jupyter Notebook to uncover initial  patterns, test hypotheses, and understand the complex relationships between  variables.
+ - Python (EDA & Statistical Analysis)
+ - Conducted univariate & bivariate analysis.
+ - Chi-square tests for categorical associations.
+ - Visualization with Matplotlib & Seaborn.
 
 [VIEW EDA FILE 🐍](../studentDepression/Notebook/studentDepressionAnalysis_EDA+Statistical.ipynb)
 
 **SQL Pipeline Simulation**
 
-    - To showcase a more robust workflow, a local SQLite database was created. A dedicated .sql script was written to handle all data transformation and feature engineering, simulating a real-world environment where the data source is a database, not a flat file.
+ - To showcase a more robust workflow, a local SQLite database was created. A dedicated .sql script was written to handle all data transformation and feature engineering, simulating a real-world environment where the data source is a database, not a flat file.
 
 **📐 Data Modeling in Power BI**
 
-    - **Defined key DAX measures: Depression Rate, Suicidal Thoughts Rate,etc**    
-         ![Measures Table](../studentDepression/Images/Measures%20Table.png)
+- **Defined key DAX measures: Depression Rate, Suicidal Thoughts Rate,etc**    
+![Measures Table](../studentDepression/Images/Measures%20Table.png)
 
 **📈 Dashboard Development & Publishing**
 
@@ -131,57 +133,61 @@ Pages created:
 
 **📊 Dashboard Structure**
 
-    - Home Page
-    ![Home Page](../studentDepression/Images/Page%201.png)
+- Home Page
+![Home Page](../studentDepression/Images/Page%201.png)
 
-    - Academic Factors
-    ![Academic Factors](../studentDepression/Images/Page%202.png)
+- Academic Factors
+![Academic Factors](../studentDepression/Images/Page%202.png)
 
-    - Lifestyle Factors
-    ![Lifestyle Factors](../studentDepression/Images/Page%203.png)
+- Lifestyle Factors
+![Lifestyle Factors](../studentDepression/Images/Page%203.png)
 
 
-    - Summary Page
-    ![Academic Factors](../studentDepression/Images/Page%204.png)
+- Summary Page
+![Academic Factors](../studentDepression/Images/Page%204.png)
 
 **📃Final Report Building**
 
-    - The final, validated insights were presented in a comprehensive, multi-page interactive dashboard in Power BI and summarized in a final PowerPoint presentation.
+- The final, validated insights were presented in a comprehensive, multi-page interactive dashboard in Power BI and summarized in a final PowerPoint presentation.
 
-    - Included important questions and key visuals and insights from the dashboard and EDA.
+- Included important questions and key visuals and insights from the dashboard and EDA.
 
-        ![alt text](../studentDepression/Images/Report%20Questions.png)  
+    ![alt text](../studentDepression/Images/Report%20Questions.png)  
 
-    > [View Full Report](../studentDepression/Report/student_depression_report_structure.pdf)
-    
-    > [View ppt Files](../studentDepression/Report/student_depression_report_structure.pptx)
+> [View Full Report](../studentDepression/Report/student_depression_report_structure.pdf)
+
+> [View ppt Files](../studentDepression/Report/student_depression_report_structure.pptx)
 
 ---
 # **💻 Tech Stack**
-    * Languages: Python, SQL
+* **Languages: Python, SQL**
 
-    * Libraries: Pandas, Matplotlib, Seaborn, chi2_contingency
+* **Libraries: Pandas, Matplotlib, Seaborn, chi2_contingency**
 
-    * Database: SQLite
+* **Database: SQLite**
 
-    * BI Tool: Microsoft Power BI
+* **BI Tool: Microsoft Power BI**
 
-    * IDE: VS Code, Jupyter Notebook
+* **IDE: VS Code, Jupyter Notebook**
 
-    * Report Tool: Microsof PowerPoint
+* **Report Tool: Microsof PowerPoint**
 
-    * Version Control: GitHub
+* **Version Control: GitHub**
 
 ---
 # **🛠️ Skills Showcased**
 
 - **SQL (MySQL database creation, relational modeling)**
 
-- **Python (EDA) → Pandas, Seaborn, Matplotlib**
+- **Python (Pandas, SciPy, Matplotlib) → EDA & statistical analysis.**
 
-- **Data Cleaning & Feature Engineering**
+- **Data Cleaning & Encoding → Binary, Ordinal, Binning.**
 
 - **Statistical Analysis & Correlation Study**
+
+- **Statistical Hypothesis Testing → Chi-Square**
+
+- **Analysis Using SQL Queries**
 
 - **Power BI Data Modeling & DAX**
 
@@ -191,7 +197,7 @@ Pages created:
 
 - **Interactive Reporting**
 
-- **Power BI Service Publishing & Sharing**
+- **End-to-End Workflow: Data → EDA → Statistical Analysis → SQL → Dashboard -> Report Building.**
 
 ---
 # 🚧 **Technical Challenges**
@@ -234,4 +240,4 @@ This project demonstrates the full lifecycle of a data analytics project, from r
 
     * Reinforced the workflow discipline of:
 
-    > Data → Cleaning → EDA(Python) → SQL → Dashboard → Reporting → Recommendations
+> Data → Cleaning → EDA(Python) → SQL → Dashboard → Reporting → Recommendations
