@@ -1,0 +1,97 @@
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.ipynb_checkpoints
+
+# Virtual env
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# =========================
+# SQL / DB
+# =========================
+*.sql~       # temp files
+*.bak        # backups
+*.log
+*.db
+*.sqlite
+*.sqlite3
+*.sql-journal
+
+# =========================
+# Power BI / Excel
+# =========================
+*.pbit
+~$*.xlsx
+*.tmp
+*.temp
+
+# =========================
+# VSCode / IDEs
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# System-generated archives
+# =========================
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# =========================
+# Credentials / Secrets
+# =========================
+.env
+*.key
+*.pem
+*.crt
+*.json
+secrets.yml
+
+# =========================
+# Node / npm (just in case)
+# =========================
+node_modules/
+package-lock.json
+
+# =========================
+# Others
+# =========================
+*.out
+*.log
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# VSCode
+.vscode/
