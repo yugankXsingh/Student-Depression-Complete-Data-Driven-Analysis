@@ -54,32 +54,32 @@ The dataset includes **~28,000** students with demographic, academic, and lifest
 ```
 Student-Depression/
 │
-├── Data/
-│   └── student_depression_raw.csv
-|   └── student_data.db
+├── 📁 Data/
+│ ├── 📄 student_depression_raw.csv
+│ └── 🗄️ student_data.db
 │
-├── Images/
-│   └── Page1.png
-│   └── Page2.png
-│   └── Page3.png
-│   └── ...
+├── 🖼️ Images/
+│ ├── 🖼️ Page1.png
+│ ├── 🖼️ Page2.png
+│ ├── 🖼️ Page3.png
+│ └── 🖼️ ...
 │
-├── Notebook/
-│   └── studentDepressionAnalysis_EDA+Statistical.ipynb
+├── 📓 Notebook/
+│ └── 📘 studentDepressionAnalysis_EDA+Statistical.ipynb
 │
-├── PowerBI/
-│   ├── Dashboard.pbix
+├── 📊 PowerBI/
+│ └── 📈 Dashboard.pbix
 │
-├── Report/
-│   └── Student_Depression_Report.pptx
+├── 📑 Report/
+│ └── 🖥️ Student_Depression_Report.pptx
 │
-├── SQL_Analysis
-│   ├── transformations.sql
-│   ├── Analysis_1.sql
-│   ├── Analysis_2.sql
-│   └── ...
+├── 🗃️ SQL_Analysis/
+│ ├── 📝 transformations.sql
+│ ├── 📝 Analysis_1.sql
+│ ├── 📝 Analysis_2.sql
+│ └── 📝 ...
 │
-└── README.md
+└── 📄 README.md
 
 ```
 
